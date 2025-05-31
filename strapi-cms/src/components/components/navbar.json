@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_navbars",
+  "info": {
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "component": "components.logo",
+      "repeatable": false
+    },
+    "button": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "dropdown": {
+      "type": "component",
+      "component": "components.dropdown",
+      "repeatable": false
+    },
+    "getStartedButton": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

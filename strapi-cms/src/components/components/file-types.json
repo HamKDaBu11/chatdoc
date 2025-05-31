@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_file_types",
+  "info": {
+    "displayName": "FileTypes"
+  },
+  "options": {},
+  "attributes": {
+    "subHeading": {
+      "type": "string"
+    },
+    "formatChip": {
+      "type": "component",
+      "component": "components.chip",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

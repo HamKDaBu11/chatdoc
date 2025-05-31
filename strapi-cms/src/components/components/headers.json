@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_headers",
+  "info": {
+    "displayName": "Headers"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "component": "components.heading",
+      "repeatable": false
+    },
+    "headingImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

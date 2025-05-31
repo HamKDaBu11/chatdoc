@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_subscriptions",
+  "info": {
+    "displayName": "Subscription"
+  },
+  "options": {},
+  "attributes": {
+    "subscriptionHeading": {
+      "type": "component",
+      "component": "components.heading",
+      "repeatable": false
+    },
+    "toggleSection": {
+      "type": "component",
+      "component": "components.toggle-section",
+      "repeatable": false
+    },
+    "subscriptionList": {
+      "type": "component",
+      "component": "components.subscription-list",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

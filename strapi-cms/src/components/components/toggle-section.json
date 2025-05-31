@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_toggle_sections",
+  "info": {
+    "displayName": "ToggleSection",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "monthly": {
+      "type": "string"
+    },
+    "toggle": {
+      "type": "boolean"
+    },
+    "yearly": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

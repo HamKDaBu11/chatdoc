@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_subscription_offers",
+  "info": {
+    "displayName": "SubscriptionOffers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subscriptionButton": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "perks": {
+      "type": "component",
+      "component": "components.perks",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

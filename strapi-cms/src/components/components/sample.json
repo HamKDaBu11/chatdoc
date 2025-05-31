@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_samples",
+  "info": {
+    "displayName": "Sample",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "sampleImg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sampleLink": {
+      "type": "component",
+      "component": "components.link",
+      "repeatable": false
+    },
+    "sampleHeader": {
+      "type": "component",
+      "component": "components.headers",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

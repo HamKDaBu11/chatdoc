@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "chat_docs",
+  "info": {
+    "singularName": "chat-doc",
+    "pluralName": "chat-docs",
+    "displayName": "ChatDOC"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.slider",
+        "shared.seo",
+        "shared.rich-text",
+        "shared.quote",
+        "shared.media",
+        "components.toggle-section",
+        "components.testimonial",
+        "components.testimonial-section",
+        "components.testimonial-list",
+        "components.subscripton-type",
+        "components.subscription",
+        "components.subscription-offers",
+        "components.subscription-list",
+        "components.sample",
+        "components.sample-section",
+        "components.revolving-text",
+        "components.perks",
+        "components.navbar",
+        "components.logo",
+        "components.link",
+        "components.hero",
+        "components.heading",
+        "components.headers",
+        "components.footer",
+        "components.file-types",
+        "components.feature",
+        "components.feature-section",
+        "components.feature-list",
+        "components.faq",
+        "components.faq-list",
+        "components.dropdown",
+        "components.dropdown-item",
+        "components.chip",
+        "components.button"
+      ]
+    }
+  }
+}

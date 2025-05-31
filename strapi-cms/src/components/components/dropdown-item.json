@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_dropdown_items",
+  "info": {
+    "displayName": "DropdownItem",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

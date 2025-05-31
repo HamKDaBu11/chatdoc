@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_faq_lists",
+  "info": {
+    "displayName": "FAQList"
+  },
+  "options": {},
+  "attributes": {
+    "faq": {
+      "type": "component",
+      "component": "components.faq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

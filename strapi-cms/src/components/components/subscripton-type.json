@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_subscripton_types",
+  "info": {
+    "displayName": "SubscriptionType"
+  },
+  "options": {},
+  "attributes": {
+    "subscriptionHeader": {
+      "type": "component",
+      "component": "components.headers",
+      "repeatable": false
+    },
+    "subscriptionButton": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

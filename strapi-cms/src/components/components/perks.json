@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_perks",
+  "info": {
+    "displayName": "Perks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_components_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "revolvingText": {
+      "type": "component",
+      "component": "components.revolving-text",
+      "repeatable": true
+    },
+    "heroHeader": {
+      "type": "component",
+      "component": "components.headers",
+      "repeatable": true
+    },
+    "tryForFreeButton": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "fileTypes": {
+      "type": "component",
+      "component": "components.file-types",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "heroImg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "chatWithDocumentsHeading": {
+      "type": "component",
+      "component": "components.heading",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

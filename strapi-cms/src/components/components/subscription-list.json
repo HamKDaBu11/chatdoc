@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_subscription_lists",
+  "info": {
+    "displayName": "SubscriptionList"
+  },
+  "options": {},
+  "attributes": {
+    "subscriptionOffers": {
+      "type": "component",
+      "component": "components.subscription-offers",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

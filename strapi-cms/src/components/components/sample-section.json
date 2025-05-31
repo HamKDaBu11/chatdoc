@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_sample_sections",
+  "info": {
+    "displayName": "SampleSection"
+  },
+  "options": {},
+  "attributes": {
+    "sampleHeading": {
+      "type": "component",
+      "component": "components.headers",
+      "repeatable": true
+    },
+    "sampleTypes": {
+      "type": "component",
+      "component": "components.sample",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_headings",
+  "info": {
+    "displayName": "Heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subHeading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

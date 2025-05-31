@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_chips",
+  "info": {
+    "displayName": "Chip"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "arrow": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

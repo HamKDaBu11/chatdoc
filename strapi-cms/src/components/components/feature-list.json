@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_feature_lists",
+  "info": {
+    "displayName": "FeatureList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "component": "components.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

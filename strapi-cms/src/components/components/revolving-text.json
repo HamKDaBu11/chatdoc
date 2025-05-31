@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_revolving_texts",
+  "info": {
+    "displayName": "RevolvingText",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "chip": {
+      "type": "component",
+      "component": "components.chip",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    }
+  },
+  "config": {}
+}

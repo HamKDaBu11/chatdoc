@@ -1,13 +1,12 @@
 ############################
 # Strapi
 ############################
-strapi-cms/
 
-# .env
-# license.txt
-# exports
-# .strapi
-# dist
-# build
-# .strapi-updater.json
-# .strapi-cloud.json
+strapi-cms/*.env
+strapi-cms/exports
+strapi-cms/node_modules/
+strapi-cms/.strapi/
+strapi-cms/dist/
+strapi-cms/build/
+strapi-cms/.strapi-updater.json
+strapi-cms/.strapi-cloud.json
