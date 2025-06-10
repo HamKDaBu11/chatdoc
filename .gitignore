@@ -13,3 +13,4 @@ strapi-cms/.strapi-cloud.json
 
 frontend-next/.env*
 frontend-next/node_modules/
+frontend-next/.next/

@@ -1,21 +1,25 @@
 
-async function getStrapiData(url: string) {
-  const baseUrl = "http://localhost:1337"
-  try {
-    const response = await fetch(baseUrl + url);
-    const data = await response.json()
-    return data
-  } catch(error) {
-    console.log(error)
-  }
-}
+// async function getStrapiData(url: string) {
+//   const baseUrl = "http://localhost:1337"
+//   try {
+//     const response = await fetch(baseUrl + url);
+//     const data = await response.json()
+//     return data
+//   } catch(error) {
+//     console.log(error)
+//   }
+// }
+
+import Navbar from "./components/Navbar/Navbar";
 
 export default async function Home() {
 
-  const strapiData = await getStrapiData("/api/chat-doc")
-  console.log(strapiData)
+  // const strapiData = await getStrapiData("/api/chat-doc/")
+  // console.log(strapiData)
 
   return (
-    <div></div>
+    <div>
+      <Navbar />
+    </div>
   );
 }
