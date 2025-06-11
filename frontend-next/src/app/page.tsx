@@ -12,6 +12,7 @@
 
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import SampleSection from "./components/SampleSection/SampleSection";
 
 export default async function Home() {
 
@@ -22,6 +23,7 @@ export default async function Home() {
     <div>
       <Navbar />
       <Hero />
+      <SampleSection />
     </div>
   );
 }
