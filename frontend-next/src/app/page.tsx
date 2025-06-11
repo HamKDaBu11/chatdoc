@@ -10,6 +10,7 @@
 //   }
 // }
 
+import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 
 export default async function Home() {
@@ -20,6 +21,7 @@ export default async function Home() {
   return (
     <div>
       <Navbar />
+      <Hero />
     </div>
   );
 }

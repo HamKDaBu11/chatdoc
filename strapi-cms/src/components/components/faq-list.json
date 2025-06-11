@@ -5,6 +5,11 @@
   },
   "options": {},
   "attributes": {
+    "faqHeading": {
+      "type": "component",
+      "component": "components.heading",
+      "repeatable": false
+    },
     "faq": {
       "type": "component",
       "component": "components.faq",
