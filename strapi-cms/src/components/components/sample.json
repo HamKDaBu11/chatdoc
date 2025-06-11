@@ -21,10 +21,11 @@
       "component": "components.link",
       "repeatable": false
     },
-    "sampleHeader": {
-      "type": "component",
-      "component": "components.headers",
-      "repeatable": false
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
     }
   },
   "config": {}
