@@ -239,9 +239,10 @@ export interface ComponentsSample extends Struct.ComponentSchema {
     icon: 'cursor';
   };
   attributes: {
-    sampleHeader: Schema.Attribute.Component<'components.headers', false>;
     sampleImg: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     sampleLink: Schema.Attribute.Component<'components.link', false>;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
   };
 }
 
