@@ -53,7 +53,7 @@ export interface ComponentsFaq extends Struct.ComponentSchema {
     icon: 'cursor';
   };
   attributes: {
-    faqHeading: Schema.Attribute.Component<'components.heading', false>;
+    answer: Schema.Attribute.String;
     question: Schema.Attribute.String;
   };
 }
@@ -65,6 +65,7 @@ export interface ComponentsFaqList extends Struct.ComponentSchema {
   };
   attributes: {
     faq: Schema.Attribute.Component<'components.faq', true>;
+    faqHeading: Schema.Attribute.Component<'components.heading', false>;
   };
 }
 
